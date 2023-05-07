@@ -1,0 +1,109 @@
+/* Your styles */
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #3d9933;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  /* My styles */
+  body {
+    background-color: #f3f3f3;
+  }
+  
+  nav {
+    background-color: #996633;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  nav li a:hover {
+    background-color: #fff;
+    color: #996633;
+    transition: 0.3s;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .card {
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .card p {
+    text-align: justify;
+    margin: 10px;
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .card button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #996633;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .card button:hover {
+    background-color: #fff;
+    color: #996633;
+    transition: 0.3s;
+  }
+  
